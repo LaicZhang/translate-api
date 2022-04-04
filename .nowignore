@@ -1,0 +1,9 @@
+README.md
+CHANGELOG.md
+LICENSE
+package-lock.json
+.prettierrc.js
+.eslintrc.js
+.vscode
+.gitignore
+_config.yml

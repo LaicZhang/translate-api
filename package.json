@@ -1,0 +1,57 @@
+{
+  "name": "translate-serverless-vercel",
+  "version": "1.0.2",
+  "description": "Translate API Vercel Serverless Functions",
+  "scripts": {
+    "start": "BROWSER=none react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --color --ext js,jsx,ts,tsx",
+    "prettier": "prettier --write './**/*.{ts, js, jsx}'",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olavoparno/translate-serverless-vercel.git"
+  },
+  "author": {
+    "name": "Olavo Parno",
+    "url": "https://olavoparno.vercel.app/"
+  },
+  "license": "ISC",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "@amaurym/now-middleware": "^0.2.2",
+    "@material-ui/core": "^4.12.1",
+    "@material-ui/icons": "^4.11.2",
+    "@vercel/node": "^1.11.1",
+    "@vitalets/google-translate-api": "^7.0.0",
+    "axios": "^0.21.2",
+    "cors": "^2.8.5",
+    "ioredis": "^4.27.6",
+    "logform": "^2.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/ioredis": "^4.26.5",
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2",
+    "standard-version": "^9.3.1",
+    "typescript": "^4.3.5"
+  }
+}
